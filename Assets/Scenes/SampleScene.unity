@@ -547,7 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4944a02f8eb44470af0bfbb9b134f6be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpStrength: 12
+  jumpStrength: 10
   dieStrength: 2
 --- !u!1 &1395106655
 GameObject:
