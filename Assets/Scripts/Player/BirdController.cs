@@ -30,13 +30,13 @@ namespace Player
             if (_death) return;
 
             if (!Input.GetMouseButtonDown(0)) return;
-
             Jump();
         }
 
         private void Jump()
         {
             _rigidbody2D.velocity = Vector2.up * jumpStrength;
+            Debug.Log("Estoy pulsando");
         }
 
         private void OnCollisionEnter2D(Collision2D other)
